@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @KarateOptions(
-    tags = "@match"
+    tags = "@kraft"
 )
 public class FeatureRunner {
 }
