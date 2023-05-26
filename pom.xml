@@ -54,7 +54,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>**/*FeatureRunner.java</include>
+                        <include>**/*com.kraft.FeatureRunner.java</include>
                     </includes>
                 </configuration>
             </plugin>
