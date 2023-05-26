@@ -23,6 +23,7 @@ Feature: basic api tests
   Scenario: basic json body verification with bookstore
     Given url "https://bookstore.toolsqa.com/BookStore/v1/Books"
     When method get
+
     Then status 200
     Then match header Content-Type == "application/json; charset=utf-8"
     Then match header Connection == "keep-alive"
